@@ -5,6 +5,6 @@ The course is original from **Mosh** on Udemy [Object-oriented Programming in Ja
 
 **Sections:**
 
-1. Get Started
+1. [Get Started](https://github.com/junj0619/JS-OOP/blob/master/Section%201:%20Getting%20Started.md)
 2. [Object](https://github.com/junj0619/JS-OOP/blob/master/Section:%202%20Object.md)
   
