@@ -42,7 +42,7 @@ function getWage(baseSalary, overtime, rate) {
 
 ```
 
-Now let's see object oriented way to solve this problem.
+Now let's see object-oriented way to solve this problem.
 
 ```javascript
 
@@ -58,6 +58,8 @@ let employee = {
 employee.getWage();
 
 ```
+**Now why is this better?**  
+First of all let's look at get wage function. This function has no parameters. In contrast, in a procedural example, our getWage function has 3 parameters. The reason this implementation don't any parameters, is because all these parameters are actually modeled as properties of this object. All these properties and getWage() function are highly related, so they are part of one unit. So one of the symptoms of procedural code is functions with so many parameters. When you write code in an object-oriented way, your functions end up having fewer and fewer parameters. The fewer the number of parameters the easier it is to use and maintain that function. So that is **Encapsulation**.
 
 #### Encapsulation ####
 
