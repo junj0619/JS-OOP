@@ -42,7 +42,7 @@ function getWage(baseSalary, overtime, rate) {
 
 ```
 
-Now let's see object-oriented way to solve this problem.
+Now let's see **object-oriented** way to solve this problem.
 
 ```javascript
 
