@@ -26,7 +26,7 @@ Before Object-Oriented Programming, We had procedure programmming divided a prog
 
 Object-Oriented Programming came to sovle this problem, in  Object-Oriented Programming we combine a group of related variables and functions into a unit. We call that unit an object. We refer to these variable to properties, and the functions as methods.
 
-
+For example the localStorage in your browsers. Every browsers has a local storage object that allows you store data locally. This localStorage object has property like length which returns the number of objects in the storage, and methods like setItem and removeItem. So in object oriented programming you group related variables, and functions that operate on them into objects. And this is what we call **Encapsulation**.
 
 #### Encapsulation ####
 
