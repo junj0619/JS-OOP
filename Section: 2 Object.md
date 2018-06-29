@@ -1,7 +1,7 @@
 ## Exercise: Stopwatch ##
 
 ### Requirement: ###
-Create a stop watch object with **Start(), Stop(), Reset()** methods. And user should be enable call these method once stop watch object created. Meanwhile there will be validation to **check** if watch is **already Start/Stop**. If current request violate the validation then show error message. 
+Create a stop watch object with **Start(), Stop(), Reset()** methods. And user should be enable call these methods after stop watch object is created. Meanwhile there will be validation to **check** if watch is **already Start/Stop**. If current request violate the validation then show error message. 
 User also can call **duration** property to check the stopwatch interval.     
 Take **30 mins** to finish this requirement with clean design code.
 
