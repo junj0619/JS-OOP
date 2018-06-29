@@ -5,7 +5,7 @@
 **What is Object-oriented Programming(OOP)?**
 
 Object-oriented programming (OOP) is a popular programming paradigm or style of programming. It’s been around since ‘70s, but unlike tools and frameworks that come and go, OOP is still very relevant today. That’s because it’s not a programming language or a tool. It’s a style of programming.
-
+  
 
 **Why learn OOP?**
 
@@ -18,6 +18,7 @@ OOP helps you manage and reduce complexity in software by building re-usable bui
 * Eliminate redundant code
 * Build re-usable building blocks
 * Write cleaner code
+
 
 ### 2.Four Pillars of OOP? ###
 
