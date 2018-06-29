@@ -22,5 +22,17 @@ OOP helps you manage and reduce complexity in software by building re-usable bui
 
 ### 2.Four Pillars of OOP? ###
 
+Before Object-Oriented Programming, We had procedure programmming divided a program into a set of fucntions. so you have data stored in a bunch of variables and functions that operate on the data. This style of programming is very simple and straight forward but as your programs grow, you end up with a bunch of functions that all over the place. You might find yourself copying and pasting line of codes over and over to make a change to one function and then several other functions break. That's what people call spaghetti code, there is so much interdependency in all these functions it becomes problematic. Object-Oriented Programming came to sovle this problem, in  Object-Oriented Programming we combine a group of related variables and functions into a unit. We call that unit an object. We refer to these variable to properties, and the functions as methods.
+
+
+
+#### Encapsulation ####
+
+#### Abstraction ####
+
+#### Inheritance ####
+
+#### Polymorphism ####
+
 ### 3.Setting Up the Development Environment ###
 
