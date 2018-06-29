@@ -1,4 +1,9 @@
-<h2>Exercise: Stopwatch</h2>
+## Exercise: Stopwatch ##
+
+### Requirement: ###
+Create a stop watch object with **Start(), Stop(), Reset()** methods. And user should be enable call these method once stop watch object created. Meanwhile there will be validation to **check** if watch is **already Start/Stop**. If current request violate the validation then show error message. 
+User also can call **duration** property to check the stopwatch interval.     
+Take **30 mins** to finish this requirement with clean design code.
 
 **By me:**
 ```javascript
@@ -80,4 +85,9 @@ function StopWatch() {
 }
 ```
 
-**Summary**
+**Summary**  
+Compare to Mosh's solution I found few things are not implemented properly on my solution.
+1. Duration is not added on previous duration value
+2. The validation to check isStart/isEnd can be simplified
+3. Duration Getter logic doesn't have to check startTime/endTime undefine if we initial them at begining 
+4. Calculation of duration can be implemented in Stop() function 
