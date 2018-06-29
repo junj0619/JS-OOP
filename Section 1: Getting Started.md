@@ -22,11 +22,42 @@ OOP helps you manage and reduce complexity in software by building re-usable bui
 
 ### 2.Four Pillars of OOP? ###
 
-Before Object-Oriented Programming, We had procedure programmming divided a program into a set of fucntions. so you have data stored in a bunch of variables and functions that operate on the data. This style of programming is very simple and straight forward but as your programs grow, you end up with a bunch of functions that all over the place. You might find yourself copying and pasting line of codes over and over to make a change to one function and then several other functions break. That's what people call spaghetti code, there is so much interdependency in all these functions it becomes problematic.   
+Before Object-Oriented Programming, We had **procedure programmming** divided a program into a set of fucntions. so you have data stored in a bunch of variables and functions that operate on the data. This style of programming is very simple and straight forward but as your programs grow, you end up with a bunch of functions that all over the place. You might find yourself copying and pasting line of codes over and over to make a change to one function and then several other functions break. That's what people call spaghetti code, there is so much interdependency in all these functions it becomes problematic.   
 
 Object-Oriented Programming came to sovle this problem, in  Object-Oriented Programming we combine a group of related variables and functions into a unit. We call that unit an object. We refer to these variable to properties, and the functions as methods.
 
 For example the localStorage in your browsers. Every browsers has a local storage object that allows you store data locally. This localStorage object has a **property** like **length** which returns the number of objects in the storage, and **methods** like **setItem()** and **removeItem()**. So in object oriented programming you group related variables, and functions that operate on them into objects. And this is what we call **Encapsulation**.
+
+Here we have 3 variables baseSalary, overtime and rate. Below this, we have a function to calucate the wage for an employee.
+We refer this kind of implementation as **procedure** so we have variables on one side and functions on other side, they are hard to decouple.
+
+```javascript
+let baseSalary = 30000;
+let overtime = 10;
+let rate = 20;
+
+function getWage(baseSalary, overtime, rate) {
+    return baseSalary + (overtime * rate);
+}
+
+```
+
+Now let see object oriented way to solve this problem.
+
+```javascript
+
+let employee = {
+    baseSalary : 30000,
+    overtime : 10,
+    rate : 20,
+    getWage : function () {
+       return this.baseSalary + (this.overtime * this.rate);
+    }
+};
+
+employee.getWage();
+
+```
 
 #### Encapsulation ####
 
