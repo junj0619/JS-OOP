@@ -62,12 +62,47 @@ employee.getWage();
 First of all let's look at get wage function. This function has no parameters. In contrast, in a procedural example, our getWage function has 3 parameters. The reason this implementation don't any parameters, is because all these parameters are actually modeled as properties of this object. All these properties and getWage() function are highly related, so they are part of one unit. So one of the symptoms of procedural code is functions with so many parameters. When you write code in an object-oriented way, your functions end up having fewer and fewer parameters. The fewer the number of parameters the easier it is to use and maintain that function. So that is **Encapsulation**.
 
 #### Encapsulation ####
+Group related properties and methods together. This will reduce complexiy.  
+
+**Benefits:**
+1) Reduce Complexity
+2) Increase reusabiliy
 
 #### Abstraction ####
+Hide the detail(properties and methods) and complexity and show only the essential
+
+**Benefits:**
+1. Simpler Interface/Reduce Complexity
+2. Reduce the Impact of Change/Isolate impact of changes
 
 #### Inheritance ####
+1. Eliminated Reduantant Code
+
+Here is example:  
+Think about of HTML elements **TextBox, Select, CheckBox**. All these elements have some commons **Property likes hidden, innerHTML** and **Methods like click() and focus()**. Inside of redefine every properties and methods in all HTML elements. Inside we can define a generic HTMLElement and let all HTML elements inherit it. So Inheritance helps us eliminated reduantatn code.
+
 
 #### Polymorphism ####
+1. Refactor ugly switch/case statements
+
+
+__Poly__ means __**MANY**__, __morph__ means __**FORM**__ so Ploymorphism means many forms in OOP it helps us to get rid of long **if** and **else** and **swich** statements. So back to our previous example all these HTML elements shoud have ability to render it on the page. But the way to render is difference than each others. If you want to render mutiple HTML elements in procedure way. Then you have to come up with following code structure.
+
+
+In Procedure way to render multiple HTML elements:
+
+```javascript
+switch(type) {
+    case 'select': renderSelect();
+    case 'text': renderTextBox();
+    case 'checkbox': .....
+    case ...
+    case ...
+    case ...
+}
+```
+
+But with OOP we can implement this render() methods in each of HTML element. And render() will behave differently depends on type of object we are referencing. So we can get rid of the urgly switch case inside using **element.render()**.
 
 ### 3.Setting Up the Development Environment ###
 
