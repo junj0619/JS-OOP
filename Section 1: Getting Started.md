@@ -105,4 +105,6 @@ switch(type) {
 But with OOP we can implement this render() methods in each of HTML element. And render() will behave differently depends on type of object we are referencing. So we can get rid of the ugly switch case inside using **element.render()**.
 
 ### 3.Setting Up the Development Environment ###
-
+1. VS Code
+2. Install Live Server
+3. Create index.html and index.js
