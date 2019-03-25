@@ -19,8 +19,8 @@ const circle = {
 circle.draw();
 ```
 ## 3- Factory Function ##
-1.Factory Function must have return keyword.
-2.Using Factory Function to create an object don't use new keyword
+1) Factory Function must have return keyword.
+2) Using Factory Function to create an object don't use new keyword
 
 ```javascript
 function createCircle(radius) {
@@ -37,15 +37,15 @@ circie1.draw();
 ```
 
 ## 4- Constructor Function ##
-1.Constructor function using Upper Case as function name
-2.Constructor function don't use return keyword
-3.Use this keyword to assign property
-4.Use new keyword for creating object by using Constructor Function
+1) Constructor function using Upper Case as function name
+2) Constructor function don't use return keyword
+3) Use this keyword to assign property
+4) Use new keyword for creating object by using Constructor Function
 
 **What happen when use new keyword to create an object?**
-1.An empty object will be create first
-2.Point all this. properties and methods to this empty object
-3.Return the object from this function
+1) An empty object will be create first
+2) Point all this. properties and methods to this empty object
+3) Return the object from this function
 ```javascript
 function Circle(radius) {
     this.radius = radius,
