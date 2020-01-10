@@ -112,6 +112,7 @@ But with OOP we can implement this render() methods in each of HTML element. And
  | TextBox |   | Select  |   | CheckBox |
  | render()|   | render()|   | render() |                              
 
+ element.render();
  </pre>
 
 ### 3.Setting Up the Development Environment ###
