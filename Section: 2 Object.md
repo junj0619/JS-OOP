@@ -49,9 +49,9 @@ circie1.draw();
 ```javascript
 function Circle(radius) {
     this.radius = radius,
-        this.draw = function () {
-            console.log('draw a circle with radius: ' + this.radius);
-        }
+    this.draw = function () {
+        console.log('draw a circle with radius: ' + this.radius);
+    }
 }
 
 const circle2 = new Circle(2);
