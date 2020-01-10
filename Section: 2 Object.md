@@ -65,7 +65,7 @@ Every Object has a Constructor property. Constructor property that is referencin
 
 
 ## 6- Functions are Objects
-Constructor property that is referencing the function that create object Build-In Constructor is called Function() when we declare a function using this syntax. Internally JavaScript engine will use this Function() Constructor to create the Object.
+Constructor property that is referencing the function that create object Build-In Constructor is called __Function()__ when we declare a function using this syntax. Internally JavaScript engine will use this __Function()__ Constructor to create the Object.
 
 ```javascript
 const CircleObj = new Function('radius', `
